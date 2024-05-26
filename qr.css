@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    font-family: sans-serif;
+}
+
+span{
+    color: red;
+}
+
+.hel{
+    background-color: pink;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 87vh;
+}
+
+.qr-container{
+    width: 400px;
+    padding: 20px;
+    box-shadow: 0 0 20px white;
+}
+
+h2{
+    font-size: 1.6rem;
+    font-family: sans-serif;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+#qr-input{
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+#qr-button{
+    display: block;
+    width: 100%;
+    font-size: 1.1rem;
+    padding: 8px;
+    border: none;
+    outline: none;
+    background-color: rgb(11, 130, 11);
+    color: white;
+    font-family: sans-serif;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+#qr-image{
+    display: block;
+   margin: 0 auto;
+   
+}
+
+.footer{
+    background-color: pink;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+
+@media (max-width: 464px) {
+    .qr-container{
+        width: 300px;
+    }
+}
+
+@media (max-width: 349px) {
+    .qr-container{
+        width: 250px;
+    }
+
+    h2{
+        font-size: 1.2rem;
+    }
+
+    #qr-input{
+        font-size: 0.7rem;
+    }
+}
+
